@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GA HOUSES PROJECT 2021</title>
+    <style>
+        /* 基礎版型設定 */
+        body { 
+            font-family: "PingFang TC", "Microsoft JhengHei", sans-serif; 
+            max-width: 700px; 
+            margin: 0 auto; 
+            padding: 40px 20px 120px; 
+            line-height: 1.8; 
+            color: #333;
+            background-color: #fff;
+        }
+
+        .back-link { text-decoration: none; color: #ccc; font-size: 0.9rem; display: block; margin-bottom: 20px; }
+        .back-link:hover { color: #888; }
+
+        /* 標題與價格 */
+        header { margin-bottom: 30px; }
+        h1 { font-size: 1.6rem; margin: 0 0 8px 0; letter-spacing: 0.5px; font-weight: 500; }
+        .price { font-size: 1.1rem; color: #8b5e3c; font-weight: bold; }
+
+        /* 圖片容器 */
+        .img-box { text-align: center; margin-bottom: 30px; }
+        img { max-width: 100%; height: auto; border: 1px solid #f2f2f2; display: block; margin: 0 auto; }
+
+        /* 封面圖：寬度一半 */
+        .cover-img { width: 50%; }
+
+        /* 內頁圖：全寬 */
+        .inner-img { width: 100%; margin-bottom: 10px; }
+
+        /* 文字介紹 */
+        .description { 
+            font-size: 1rem; 
+            color: #444; 
+            margin: 40px 0; 
+            white-space: pre-wrap;
+            text-align: justify;
+        }
+
+        /* 底部固定詢問按鈕 */
+        .action-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(255,255,255,0.9);
+            padding: 20px 0;
+            text-align: center;
+            backdrop-filter: blur(8px);
+            border-top: 1px solid #eee;
+            z-index: 100;
+        }
+
+        .ask-btn { 
+            display: inline-block; 
+            background: #000; 
+            color: #fff; 
+            padding: 14px 60px; 
+            text-decoration: none; 
+            font-size: 0.95rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+
+<a href="index.html" class="back-link">← Back</a>
+
+<header>
+    <h1>GA HOUSES PROJECT 2021</h1>
+    <div class="price">NT$ 1000</div>
+</header>
+
+<main>
+    <div class="img-box">
+        <img src="book1_cover.jpg" alt="封面" class="cover-img">
+    </div>
+
+    <div class="description">
+書況:9.99成新
+收錄很多位世界各地建築師的住宅新方案，包含Pezo von Ellrichshausen, Studio Mumbai, Aires Mateus, Kengo Kuma, Steven Holl, 隈研吾, 增田信吾, 山田紗子, 妹島和世, 西澤立衛, 島田陽, 堀部安嗣, 藤本壯介。
+圖面不只呈現想法，更有構造、圖學等細節，對大一到大三還在摸索想法與構造如何結合的學生是一本很不錯的書。
+
+    </div>
+
+    <div class="img-box">
+        <img src="book1_inner1.jpg" alt="內頁1" class="inner-img">
+        <img src="book1_inner2.jpg" alt="內頁2" class="inner-img">
+        <img src="book1_inner3.jpg" alt="內頁3" class="inner-img">
+        <img src="book1_inner4.jpg" alt="內頁4" class="inner-img">
+        <img src="book1_inner5.jpg" alt="內頁5" class="inner-img">
+    </div>
+</main>
+
+<div class="action-bar">
+    <a href="https://www.instagram.com/nonebookstudio/" target="_blank" class="ask-btn">私訊 IG 可議價</a>
+</div>
+
+</body>
+</html>
